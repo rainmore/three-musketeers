@@ -6,3 +6,13 @@ Thumbs.db
 
 # JetBrains IDE
 .idea/
+
+# CI ignores
+local.env
+**/.terraform
+**/*.tfplan
+**/terraform.tfstate*
+**/.terraform.lock.hcl
+**/__base.tf
+**/*.checkov.json
+output
