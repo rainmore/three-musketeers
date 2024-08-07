@@ -7,11 +7,11 @@ init:
 ## Apply
 apply:
 	echo 'apply terraform'
-	terraform apply
+	terraform apply -auto-approve
 .PHONY: apply
 
 ## Destory
 destroy:
 	echo 'destroy terraform'
-	terraform destroy
+	terraform destroy -auto-approve
 .PHONY: destroy
